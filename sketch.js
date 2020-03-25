@@ -10,7 +10,7 @@ function setup() {
   lastSortTime = millis();
 
 
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 500; i++) {
     numbers.push(RandomRange(1, 500));
   }
 }
